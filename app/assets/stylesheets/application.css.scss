@@ -24,6 +24,18 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif; 
 }
  
+ 
+// Nav Styles
+
+.navbar {
+  border: none;
+}
+
+.navbar-brand {
+ font-family: 'Open-serif', sans-serif; 
+ font-weight: 800;
+}
+
 .navbar, .home-callout{
   //gradient provided by @_ighosh at uigradients.com
   background: #000046;  /* fallback for old browsers */
@@ -37,10 +49,6 @@ h1, h2, h3 {
     color:white;
     opacity: 0.75;
   }
-}
-
-.navbar {
-  border: none;
 }
 
 .home-callout {
