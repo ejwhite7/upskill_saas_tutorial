@@ -1,7 +1,8 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-      <div class="text-center">
+      <div class="text-center"
+        
         <% if params[:plan] == '2' %>
           <h1>Pro Account</h1>
           <p>Sign up for the pro account for $10/month and get access to the community and contact information!</p>
@@ -10,6 +11,7 @@
           <p>Sign up for free and get basic access to the community.</p>
         <% end %>
       </div>
+      
       <div class="well">
         <h2>Sign Up</h2>
         <% if params[:plan] == '2' %>
@@ -19,6 +21,7 @@
         <% end %>
         <%= render "devise/shared/links" %>
       </div>
+      
     </div>
   </div>
 </div>
