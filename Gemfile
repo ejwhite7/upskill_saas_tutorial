@@ -49,6 +49,9 @@ gem 'figaro', '1.1.1'
 #Use Paperclip for image upload
 gem 'paperclip', '4.3.6'
 
+#Generate sitemap for indexing
+gem 'sitemap_generator'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
